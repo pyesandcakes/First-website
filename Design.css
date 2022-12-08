@@ -6,17 +6,19 @@ body {
 }
 
 div {
-    scale: 60%;
+    width: 100%;
+    height: 900px;
     border-radius: 15px;
     overflow: hidden;
     align-content: center;
     justify-content: center;
-    rotate: 0deg;
-    transition: rotate 1s ease-in-out 100ms;
+    scale: 98%;
+    transition: scale 1s ease-in-out 100ms;
 }
+
 div:hover {
     box-shadow: 0 0 2px 1px royalblue;
-    rotate: 180deg;
+    scale: 100%;
 }
 
 h1 {
