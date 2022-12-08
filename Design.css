@@ -6,14 +6,17 @@ body {
 }
 
 div {
-    width: 100%;
+    width: fit-content;
     height: 900px;
     border-radius: 15px;
     overflow: hidden;
+    perspective: 1;
+    display: flex;
     align-content: center;
     justify-content: center;
+    text-align: center;
     scale: 98%;
-    transition: scale 1s ease-in-out 100ms;
+    transition: scale 1s ease-in-out 100ms, box-shadow 1s ease-in-out 100ms;
 }
 
 div:hover {
@@ -23,21 +26,37 @@ div:hover {
 
 h1 {
     background-color: greenyellow;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-size: 50px;
     padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     border-radius: 10px;
     font-weight: 600;
-    background-clip: padding-box;
+    width: 240px;
+    transition: scale 1s ease-in-out 100ms, background-color 1s ease-in-out 100ms;  
+}
+
+h1:hover {
+    scale: 105%;
+    background-color: aqua;
 }
 
 h3 {
     background-color:greenyellow;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-shadow: 5px;
+    background-size: cover;
     border-radius: 10px;
     font-weight: 400;
     padding: 5px;
-    text-indent: 60px;
+    translate: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: max-content;
+    transition: scale 1s ease-in-out 100ms, background-color 1s ease-in-out 100ms;
+}
+
+h3:hover {
+    scale: 105%;
+    background-color: aqua;
 }
