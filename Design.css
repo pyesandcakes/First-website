@@ -1,13 +1,31 @@
 @charset "utf-8";
 
-@media (max-width:50px){
+body {
+    background-color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media screen{
+.pic {
+    background-color: aquamarine;
+    border-radius: 10000px;
 }
 
-@media (width:50px){
+h1 {
+    background-color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
-@media (orientation:landscape){
+h3 {
+    background-color:greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 5px;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 5px;
+    text-indent: 60px;
 }
