@@ -6,7 +6,7 @@ body {
 }
 
 div {
-    width: 50px;   #change to proper
+    max-width: 50px;   #change to proper
     height: 900px;
     border-radius: 15px;
     overflow: hidden;
@@ -32,6 +32,7 @@ h1 {
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: flex-start;
     border-radius: 10px;
     font-weight: 600;
     width: 240px;
@@ -54,6 +55,7 @@ h3 {
     align-content: center;
     justify-content: center;
     width: max-content;
+    align-items: flex-start;
     transition: scale 1s ease-in-out 100ms, background-color 1s ease-in-out 100ms;
 }
 
