@@ -6,7 +6,7 @@ body {
 }
 
 div {
-    max-width: 50px;   #change to proper
+    max-width: fit-content;
     height: 900px;
     border-radius: 15px;
     overflow: hidden;
