@@ -16,6 +16,7 @@ div {
     justify-content: center;
     text-align: center;
     scale: 98%;
+    margin-top: 50px;
     transition: scale 1s ease-in-out 100ms, box-shadow 1s ease-in-out 100ms;
 }
 
@@ -59,4 +60,24 @@ h3 {
 h3:hover {
     scale: 105%;
     background-color: aqua;
+}
+
+.blue{
+	display: inline-block;
+    height: min-content;
+    padding: 10px 20px;
+    margin-left: 40px;
+    outline-color: black;
+    outline-style: auto;
+    outline-width: 3px;
+    border-radius: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    scale: 100%;
+    transition: background-color 1s ease-in-out 100ms, scale 1s ease-in-out 100ms;
+}
+
+.blue:hover {
+    scale: 115%;
+    background-color: aquamarine;
 }
