@@ -17,7 +17,7 @@ div {
     justify-content: center;
     text-align: center;
     scale: 98%;
-    margin-top: 50px;
+    margin-top: 25px;
     transition: scale 1s ease-in-out 100ms, box-shadow 1s ease-in-out 100ms;
 }
 
@@ -70,6 +70,7 @@ h3:hover {
     height: min-content;
     padding: 10px 20px;
     margin-left: 40px;
+    margin-top: -5px;
     outline-color: black;
     outline-style: auto;
     outline-width: 3px;
