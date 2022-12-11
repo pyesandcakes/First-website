@@ -71,7 +71,7 @@ h3:hover {
     padding: 10px 20px;
     margin-left: 40px;
     margin-top: -5px;
-    outline-color: black;
+    border: 1px solid black;
     outline-style: auto;
     outline-width: 3px;
     border-radius: 0px;
