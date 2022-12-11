@@ -1,3 +1,2 @@
 console.log("God damn");
-console.warn("You are dumb")
-alert("Hi");
+console.warn("You are dumb");
