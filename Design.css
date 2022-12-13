@@ -85,3 +85,7 @@ h3:hover {
     scale: 115%;
     background-color: aquamarine;
 }
+
+.radio {
+    height: min-content;
+}
