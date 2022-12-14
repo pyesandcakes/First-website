@@ -5,7 +5,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div {
+.pic {
     max-width: fit-content;
     height: 900px;
     border-radius: 15px;
@@ -21,7 +21,7 @@ div {
     transition: scale 1s ease-in-out 100ms, box-shadow 1s ease-in-out 100ms;
 }
 
-div:hover {
+.pic:hover {
     box-shadow: 0 0 2px 1px royalblue;
     scale: 100%;
 }
@@ -87,5 +87,16 @@ h3:hover {
 }
 
 .radio {
-    height: min-content;
+    height: fit-content;
+    margin-top: 25px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.radio:hover {
+    border:0px;
+    scale:100%;
+}
+
+.name{
+    color: rgb(198, 255, 107);
 }
