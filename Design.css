@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: tomato;
+    background-color: #034657;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,6 +19,8 @@ body {
     scale: 98%;
     margin-top: 25px;
     transition: scale 1s ease-in-out 100ms, box-shadow 1s ease-in-out 100ms;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pic:hover {
@@ -78,18 +80,19 @@ h3:hover {
     background-color: transparent;
     text-decoration: none;
     scale: 100%;
-    transition: background-color 1s ease-in-out 100ms, scale 1s ease-in-out 100ms;
+    transition: scale 1s ease-in-out 100ms;
+    color: aqua;
+    background-color: aquamarine;
 }
 
 .blue:hover {
     scale: 115%;
-    background-color: aquamarine;
 }
 
 .radio {
     height: fit-content;
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: auto;
     border-radius: 20px;
 }
 .radio:hover {
