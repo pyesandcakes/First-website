@@ -100,3 +100,8 @@ h3:hover {
 .name{
     color: rgb(198, 255, 107);
 }
+
+.box{
+    margin-top: 15px;
+    border-radius: 5px;
+}
